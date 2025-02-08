@@ -15,3 +15,6 @@ searchButton.addEventListener('click', (e) => {
   }
   window.open(url, '_blank');
 })
+document.getElementById("dark-mode").addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode"); 
+});
